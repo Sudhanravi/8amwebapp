@@ -1,0 +1,10 @@
+.footer{
+    background: yellow;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: bold;
+}

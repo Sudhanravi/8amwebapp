@@ -1,0 +1,52 @@
+.menu{
+    text-align: right;
+    background-color: rgb(238, 200, 200);
+    line-height: 40px;
+    position:sticky;
+    top:0%;
+}
+
+.mobileMenu{
+    width: 134px;
+    height: 200px;
+    display: inline-block;
+    text-align: left;
+    padding: 10px;         /* without changin anything in mobileMenu >a we can use display grid as well display: grid; */
+    background-color: rgb(238, 200, 200);
+    cursor: pointer;
+    position: absolute;
+    transition: left 1s;
+    top:160px;
+}
+
+.mobileMenu>a{
+    display: block;
+    line-height: 50px;
+    letter-spacing: 5px;
+    font-weight:bold;       
+}
+
+.menu>a{
+    margin-right: 15px;
+    font-size: 23px;
+    font-weight:bold;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+
+.mobileMenubtn{
+    position: absolute;
+    right: 0;
+    width: 40px;
+    top: 53px;
+    cursor: pointer;
+}
+
+.menuActive{
+    color:red;
+}
+
+
+.mobileMenu{
+    top: 53px;
+}

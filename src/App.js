@@ -1,10 +1,15 @@
 import './App.css';
-import Head from './Head'
+
+import Head from './Head';
+import Footer from './Footer';
+import Menu from './Menu';
 
 function App() {
   return (
     <div> 
-      <Head/>
+      <Head/> 
+      <Menu/>
+      <Footer/>
 </div>
   );
 }
